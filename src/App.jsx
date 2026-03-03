@@ -11,7 +11,7 @@ import {
   AcademicCapIcon,
   LanguageIcon,
   HomeIcon,
-  LogOutIcon
+  ArrowRightOnRectangleIcon
 } from '@heroicons/react/24/outline'
 import Login from './components/Login'
 import Dashboard from './components/Dashboard'
@@ -381,7 +381,7 @@ const App = () => {
               className="p-1 hover:bg-university-blue/50 rounded transition-colors"
               title="Logout"
             >
-              <LogOutIcon className="w-4 h-4" />
+              <ArrowRightOnRectangleIcon className="w-4 h-4" />
             </button>
           </div>
           <p className="text-xs text-gray-400">{currentUser?.email || 'student@university.edu'}</p>
